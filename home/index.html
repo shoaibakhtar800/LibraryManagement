@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search books" required>
+            <button type="submit" onclick="handleSearch()"><img src="images/search.png" alt="search"></button>
+        </div>
+        <div class="glass-toolbar">
+            <h1 class="p">Select how you want to find</h1>
+            <button class="glass-button" id="bookname" value="title=" onclick="handleSearch('title=')">Book Name</button>
+            <button class="glass-button" id="authorname" onclick="handleSearch('author=')" value="author=">Author Name</button>
+            <button class="glass-button" id="genre" onclick="handleSearch('categories=')" value="categories=">Genre</button>
+        </div>
+    </div>
+</body>
+
+</html>
