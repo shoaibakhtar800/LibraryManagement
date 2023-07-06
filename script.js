@@ -35,6 +35,6 @@ function signUp() {
         document.getElementById('myForm').reset();
 
         // Redirect to login page
-        window.location.href = '../login/index.html';
+        window.location.href = './login/index.html';
     }
 }
